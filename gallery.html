@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="midnight">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | SABBY’S | سابيز — Authentic Café & Bakery Photography</title>
+  <meta name="description" content="View authentic interior, exterior, specialty V60 coffee, and freshly baked pastry photographs from SABBY’S (سابيز) in Al Khobar.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/jpeg" href="assets/images/sabby-logo-original.jpg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "SABBY’S | سابيز",
+    "description": "A cozy, trendy specialty coffee shop and bakery located on 22nd Street in Al Khobar Al Shamalia, Al Khobar.",
+    "image": "assets/images/sabby-logo-original.jpg",
+    "telephone": "+966557609880",
+    "priceRange": "SAR 20-40",
+    "servesCuisine": ["Specialty Coffee", "Artisanal Bakery", "Cinnamon Rolls", "Adeni Tea", "Karak", "Mana'eesh"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "EKDA8048, 22nd St, Al Khobar Al Shamalia",
+      "addressLocality": "Al Khobar",
+      "postalCode": "34426",
+      "addressCountry": "SA"
+    },
+    "sameAs": [
+      "https://www.instagram.com/sabbys.sa",
+      "https://share.google/TA2deEjP9Q58pyenB"
+    ],
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+        "opens": "07:00",
+        "closes": "23:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Friday",
+        "opens": "12:00",
+        "closes": "23:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "08:00",
+        "closes": "23:30"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+    <!-- SECTION 01 — PREMIUM NAVIGATION (WITH ATMOSPHERE SWITCHER & TASTING TRAY) -->
+  <header class="site-header header-solid" id="top">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand-logo-wrap" aria-label="SABBY'S Home">
+        <div class="brand-logo-badge">
+          <img src="assets/images/sabby-logo-original.jpg" alt="Original SABBY’S | سابيز Logo">
+        </div>
+        <div class="brand-wordmark">
+          <span class="brand-wordmark-en">SABBY’S</span>
+          <span class="brand-wordmark-ar">سابيز · الخبر</span>
+        </div>
+      </a>
+
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link" data-en="Home" data-ar="الرئيسية">Home</a></li>
+          <li><a href="story.html" class="nav-link" data-en="Our Story" data-ar="قصتنا">Our Story</a></li>
+          <li><a href="menu.html" class="nav-link" data-en="Menu" data-ar="القائمة">Menu</a></li>
+          <li><a href="gallery.html" class="nav-link" data-en="Gallery" data-ar="المعرض">Gallery</a></li>
+          <li><a href="visit.html" class="nav-link" data-en="Visit Us" data-ar="زورونا">Visit Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="theme-toggle-btn" aria-label="Toggle Midnight Espresso or Morning Ivory Theme">☀ Morning Ivory</button>
+        <button type="button" class="tray-trigger-btn" aria-label="Open Tasting & Pre-Order Tray">
+          <span data-en="Tray" data-ar="سلتي">Tray</span>
+          <span class="tray-count-badge">0</span>
+        </button>
+        <button type="button" class="lang-toggle" aria-label="Switch to Arabic">العربية</button>
+        <button type="button" class="mobile-menu-btn" id="mobile-menu-toggle" aria-label="Open Menu" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <line x1="3" y1="7" x2="21" y2="7"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="17" x2="21" y2="17"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav-drawer" id="mobile-nav-drawer" aria-hidden="true">
+    <button type="button" class="mobile-menu-btn" id="mobile-menu-close" style="position:absolute;top:1.5rem;right:1.5rem;" aria-label="Close Menu">✕</button>
+    <div class="brand-logo-badge" style="width:74px;height:74px;margin-bottom:1.5rem;">
+      <img src="assets/images/sabby-logo-original.jpg" alt="SABBY’S Logo">
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="index.html" data-en="Home" data-ar="الرئيسية">Home</a></li>
+      <li><a href="story.html" data-en="Our Story" data-ar="قصتنا">Our Story</a></li>
+      <li><a href="menu.html" data-en="Menu" data-ar="القائمة">Menu</a></li>
+      <li><a href="gallery.html" data-en="Gallery" data-ar="المعرض">Gallery</a></li>
+      <li><a href="visit.html" data-en="Visit Us" data-ar="زورونا">Visit Us</a></li>
+    </ul>
+    <div class="btn-group" style="justify-content:center;">
+      <button type="button" class="theme-toggle-btn">☀ Morning Ivory</button>
+      <a href="menu.html" class="btn btn-primary" data-en="Explore Menu" data-ar="استكشف القائمة">Explore Menu</a>
+    </div>
+  </div>
+
+  <main style="padding-top:5.5rem;">
+    <section class="gallery-section section-pad">
+      <div class="container">
+        <div class="section-header-split gsap-reveal">
+          <div>
+            <div class="eyebrow" style="color:var(--roasted-walnut);">100% Genuine SABBY’S Media</div>
+            <h1 class="h1-display editorial-heading" data-en="Photographic Archive." data-ar="معرض صور سابيز الحقيقي.">Photographic Archive.</h1>
+          </div>
+          <p class="measure-optimal" style="max-width:46ch;color:var(--text-muted);">
+            Zero stock images. Every photograph below depicts the real SABBY’S café in Al Khobar Al Shamalia. Click any frame to inspect in the accessible lightbox.
+          </p>
+        </div>
+
+        <div class="asymmetric-gallery">
+          <div class="gallery-item span-7" tabindex="0" role="button" data-caption="Signature Iced V60 & Pecan Cinnamon Roll served on SABBY’S engraved wooden tray.">
+            <img src="assets/images/signature-v60-pecan-roll-tray.jpg" alt="SABBY'S Iced V60 and Pecan Cinnamon Roll">
+            <div class="gallery-caption-overlay"><span>Signature V60 & Pecan Cinnamon Roll</span><span>+</span></div>
+          </div>
+          <div class="gallery-item span-5" tabindex="0" role="button" data-caption="SABBY’S exterior storefront and outdoor seating on 22nd Street, Al Khobar.">
+            <img src="assets/images/exterior-facade.jpg" alt="SABBY'S Exterior on 22nd Street">
+            <div class="gallery-caption-overlay"><span>22nd Street Exterior & Terrace</span><span>+</span></div>
+          </div>
+          <div class="gallery-item span-4" tabindex="0" role="button" data-caption="Tray of warm Pecan Cinnamon Rolls finished with caramel drizzle and roasted pecans.">
+            <img src="assets/images/pecan-cinnamon-rolls-tray.jpg" alt="SABBY'S Pecan Cinnamon Rolls Tray">
+            <div class="gallery-caption-overlay"><span>Pecan Cinnamon Rolls</span><span>+</span></div>
+          </div>
+          <div class="gallery-item span-4" tabindex="0" role="button" data-caption="Daily-prepared boat Mana’eesh fresh from the morning oven.">
+            <img src="assets/images/manaeesh-hotdog-boat.jpg" alt="Daily Mana'eesh at SABBY'S">
+            <div class="gallery-caption-overlay"><span>Daily-Prepared Mana’eesh</span><span>+</span></div>
+          </div>
+          <div class="gallery-item span-4" tabindex="0" role="button" data-caption="Sea-salt chocolate chunk cookies and rich fudge brownies.">
+            <img src="assets/images/cookies-and-brownies.jpg" alt="SABBY'S Cookies and Brownies">
+            <div class="gallery-caption-overlay"><span>Cookies & Fudge Brownies</span><span>+</span></div>
+          </div>
+          <div class="gallery-item span-6" tabindex="0" role="button" data-caption="Artisanal toasted sesame sandwich with grilled chicken and melted cheese.">
+            <img src="assets/images/savory-chicken-sandwich.jpg" alt="SABBY'S Savory Chicken Sandwich">
+            <div class="gallery-caption-overlay"><span>Artisanal Chicken & Cheese Sandwich</span><span>+</span></div>
+          </div>
+          <div class="gallery-item span-6" tabindex="0" role="button" data-caption="SABBY’S interior seating with warm pendant lamps and Arabic wall motto.">
+            <img src="assets/images/interior-seating-arabic-quote.jpg" alt="SABBY'S Interior Lounge">
+            <div class="gallery-caption-overlay"><span>Warm Interior Lounge</span><span>+</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <!-- SECTION 10 — PREMIUM FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <img src="assets/images/sabby-logo-original.jpg" alt="Authentic SABBY’S | سابيز Logo" class="footer-logo-large">
+          <h3 class="editorial-heading" style="font-size:1.75rem;margin-bottom:0.5rem;">SABBY’S | سابيز</h3>
+          <p style="font-size:0.9rem;color:rgba(245,235,221,0.75);max-width:34ch;" data-en="A cozy, trendy specialty coffee shop and artisanal bakery on 22nd Street, Al Khobar Al Shamalia." data-ar="مقهى ومخبز مختص دافئ وعصري في شارع ٢٢، الخبر الشمالية.">
+            A cozy, trendy specialty coffee shop and artisanal bakery on 22nd Street, Al Khobar Al Shamalia.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading" data-en="Navigation" data-ar="روابط سريعة">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" data-en="Home" data-ar="الرئيسية">Home</a></li>
+            <li><a href="story.html" data-en="Our Story" data-ar="قصتنا">Our Story</a></li>
+            <li><a href="menu.html" data-en="Digital Menu" data-ar="قائمة الطعام">Digital Menu</a></li>
+            <li><a href="gallery.html" data-en="Editorial Gallery" data-ar="معرض الصور">Editorial Gallery</a></li>
+            <li><a href="visit.html" data-en="Visit SABBY’S" data-ar="زورونا في الخبر">Visit SABBY’S</a></li>
+            <li><a href="privacy.html" data-en="Privacy Policy" data-ar="سياسة الخصوصية">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading" data-en="Location & Connect" data-ar="الموقع والتواصل">Location & Connect</h4>
+          <ul class="footer-links">
+            <li>EKDA8048, 22nd St, Al Khobar Al Shamalia, 34426</li>
+            <li><a href="https://wa.me/966557609880" target="_blank" rel="noopener">WhatsApp: 0557609880</a></li>
+            <li><a href="https://www.instagram.com/sabbys.sa" target="_blank" rel="noopener">Instagram: @sabbys.sa</a></li>
+            <li><a href="https://share.google/TA2deEjP9Q58pyenB" target="_blank" rel="noopener" data-en="Google Maps Directions →" data-ar="اتجاهات خرائط جوجل ←">Google Maps Directions →</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading" data-en="Verified Hours" data-ar="ساعات العمل">Verified Hours</h4>
+          <ul class="footer-links">
+            <li data-en="Sun – Thu: 7:00 AM – 11:30 PM*" data-ar="الأحد – الخميس: ٧:٠٠ ص – ١١:٣٠ م*">Sun – Thu: 7:00 AM – 11:30 PM*</li>
+            <li data-en="Friday: 12:00 PM – 11:30 PM" data-ar="الجمعة: ١٢:٠٠ م – ١١:٣٠ م">Friday: 12:00 PM – 11:30 PM</li>
+            <li data-en="Saturday: 8:00 AM – 11:30 PM" data-ar="السبت: ٨:٠٠ ص – ١١:٣٠ م">Saturday: 8:00 AM – 11:30 PM</li>
+            <li style="font-size:0.75rem;color:var(--champagne-gold);" data-en="*Morning video reel notes 7:30 AM daily opening (Subject to owner confirmation)." data-ar="*فيديو الصباح يذكر الافتتاح ٧:٣٠ صباحاً يومياً (رهن تأكيد المالك).">*Morning video reel notes 7:30 AM daily opening (Subject to owner confirmation).</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 SABBY’S | سابيز (Al Khobar). All brand marks belong to their respective owners.</p>
+        <div class="studio-credit-pill">
+          Unofficial website concept (Edition II) by <a href="https://muhammadmohsinwebstudio.netlify.app/" target="_blank" rel="noopener">Muhammadmohsin.webstudio</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SLIDE-OVER WHATSAPP TASTING & PRE-ORDER TRAY (0557609880) -->
+  <div class="tasting-tray-backdrop" id="tasting-tray-backdrop" aria-hidden="true" role="dialog" aria-label="SABBY'S Tasting & Pre-Order Tray">
+    <div class="tasting-tray-panel">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding-bottom:1rem;border-bottom:1px solid rgba(198,154,99,0.25);">
+          <div>
+            <span style="font-size:0.7rem;text-transform:uppercase;letter-spacing:0.16em;color:var(--champagne-gold);display:block;" data-en="Direct WhatsApp Concierge" data-ar="طلب مسبق عبر واتساب الرسمي">Direct WhatsApp Concierge</span>
+            <h3 class="editorial-heading" style="font-size:1.65rem;" data-en="Your SABBY’S Tasting Tray" data-ar="قائمة اختياراتك في سابيز">Your SABBY’S Tasting Tray</h3>
+          </div>
+          <button type="button" class="lightbox-close" id="tray-close-btn" style="position:static;">✕</button>
+        </div>
+
+        <ul class="tray-item-list" id="tray-items-list"></ul>
+
+        <div class="tray-form-group">
+          <label for="tray-service-type" data-en="Service Preference" data-ar="نوع الخدمة">Service Preference</label>
+          <select id="tray-service-type" class="tray-select">
+            <option value="Dine-In (Indoor Lounge · 22nd St)">Dine-In (Indoor Lounge · 22nd St)</option>
+            <option value="Dine-In (Outdoor Terrace · 22nd St)">Dine-In (Outdoor Terrace · 22nd St)</option>
+            <option value="Takeaway Pickup (22nd St, Al Khobar)">Takeaway Pickup (22nd St, Al Khobar)</option>
+          </select>
+        </div>
+
+        <div class="tray-form-group">
+          <label for="tray-bean-pref" data-en="Specialty Bean / Tea Preference" data-ar="تفضيل البن المختص أو الشاي">Specialty Bean / Tea Preference</label>
+          <select id="tray-bean-pref" class="tray-select">
+            <option value="Ethiopian Single Origin (Balanced & Floral)">Ethiopian Single Origin (Balanced & Floral)</option>
+            <option value="Brazilian Single Origin (Smooth & Low Acidity)">Brazilian Single Origin (Smooth & Low Acidity)</option>
+            <option value="Indonesian Single Origin (Fruity & Aromatic)">Indonesian Single Origin (Fruity & Aromatic)</option>
+            <option value="Adeni Eidrousi Tea / Rich Yemeni Karak">Adeni Eidrousi Tea / Rich Yemeni Karak</option>
+          </select>
+        </div>
+
+        <div class="tray-form-group">
+          <label for="tray-guest-notes" data-en="Special Notes (e.g., Warm Pecan Roll, Less Ice)" data-ar="ملاحظات إضافية">Special Notes (e.g., Warm Pecan Roll, Less Ice)</label>
+          <input type="text" id="tray-guest-notes" class="tray-input" placeholder="e.g., Arrival in 15 mins, extra caramel..." data-placeholder-en="e.g., Arrival in 15 mins, extra caramel..." data-placeholder-ar="مثال: الوصول خلال ١٥ دقيقة، ثلج أقل...">
+        </div>
+      </div>
+
+      <div style="padding-top:1.25rem;border-top:1px solid rgba(198,154,99,0.25);">
+        <p style="font-size:0.75rem;color:rgba(245,235,221,0.68);margin-bottom:0.85rem;" data-en="Sends directly to SABBY’S verified WhatsApp (0557609880) to confirm live ProPOS pricing & preparation." data-ar="يُرسل مباشرة إلى واتساب سابيز الرسمي (0557609880) لتأكيد السعر والتجهيز.">
+          Sends directly to SABBY’S verified WhatsApp (0557609880) to confirm live ProPOS pricing & preparation.
+        </p>
+        <button type="button" id="tray-whatsapp-send" class="btn btn-primary" style="width:100%;" data-en="Send via Official WhatsApp (0557609880)" data-ar="إرسال الطلب عبر واتساب (0557609880)">
+          Send via Official WhatsApp (0557609880)
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox-modal" id="gallery-lightbox" aria-hidden="true" role="dialog" aria-label="Image Lightbox">
+    <div class="lightbox-inner">
+      <button type="button" class="lightbox-close" id="lightbox-close">Close [ESC]</button>
+      <img src="assets/images/exterior-facade.jpg" alt="SABBY'S Gallery View" id="lightbox-img">
+      <p class="lightbox-caption" id="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

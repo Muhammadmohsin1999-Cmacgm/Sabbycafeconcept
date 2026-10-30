@@ -1,0 +1,50 @@
+{
+  "official_english_name": "SABBY’S",
+  "official_arabic_name": "سابيز",
+  "concept_title": "SABBY’S — The Art of Slow Moments",
+  "category": "Specialty Coffee Shop & Artisanal Bakery",
+  "verified_description_en": "A cozy, trendy specialty coffee shop and bakery located on 22nd Street in Al Khobar Al Shamalia, Al Khobar.",
+  "verified_description_ar": "مقهى ومخبز مختص دافئ وعصري يقع في شارع ٢٢ بالخبر الشمالية، الخبر.",
+  "wall_motto_ar": "نعدك بتجربة ترضيك من أول مرة .. نهتم بالتفاصيل، ونقدم الجودة بثبات، ونستقبلك بما يليق بك. شكراً لاختيارك سابيز .. وننتظرك دائماً.",
+  "wall_motto_en": "We promise you a satisfying experience from the very first time... We care about the details, deliver consistent quality, and welcome you as you deserve. Thank you for choosing SABBY’S — we always look forward to seeing you.",
+  "address": {
+    "short_code": "EKDA8048",
+    "street": "22nd St",
+    "district_en": "Al Khobar Al Shamalia",
+    "district_ar": "الخبر الشمالية - شارع ٢٢",
+    "city_en": "Al Khobar",
+    "city_ar": "الخبر",
+    "postal_code": "34426",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "contact": {
+    "whatsapp_local": "0557609880",
+    "whatsapp_intl": "+966557609880",
+    "whatsapp_url": "https://wa.me/966557609880",
+    "instagram_handle": "@sabbys.sa",
+    "instagram_url": "https://www.instagram.com/sabbys.sa",
+    "google_maps_url": "https://share.google/TA2deEjP9Q58pyenB"
+  },
+  "hours": {
+    "google_listing": {
+      "sun_thu": "7:00 AM – 11:30 PM",
+      "friday": "12:00 PM – 11:30 PM",
+      "saturday": "8:00 AM – 11:30 PM"
+    },
+    "instagram_morning_campaign_note": "From 7:30 AM Daily (Owner confirmation required to reconcile exact morning opening time)"
+  },
+  "price_range_sar": "SAR 20 – 40 per person (Some single items/tea visits reported at SAR 1 – 20)",
+  "services": [
+    "Dine-in",
+    "Takeaway",
+    "Cozy Indoor Seating",
+    "Outdoor Patio Seating",
+    "Free Street Parking"
+  ],
+  "proposal_credit": {
+    "studio": "Muhammadmohsin.webstudio",
+    "portfolio_url": "https://muhammadmohsinwebstudio.netlify.app/",
+    "disclaimer": "Independent, unofficial website concept developed by Muhammadmohsin.webstudio for client presentation."
+  }
+}
